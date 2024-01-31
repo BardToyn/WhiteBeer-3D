@@ -50,12 +50,12 @@
     font-family: Arial, sans-serif;
 }
 
-.front { background: url(/lefright.png) no-repeat center / cover; transform: translateZ(100px); }
-.back { background: url(/left.png) no-repeat center / cover; transform: rotateY(180deg) translateZ(100px); }
-.right { background: url(/top.png) no-repeat center / cover; transform: rotateY(90deg) translateZ(0px); }
-.left { background: url(/bottom.png) no-repeat center / cover; transform: rotateY(-90deg) translateZ(100px); }
-.top { background: url(/bootop.png) no-repeat center / cover; transform: rotateX(-90deg) translateZ(200px); }
-.bottom { background: url(/bootop.png) no-repeat center / cover; transform: rotateX(90deg) rotateY(0deg) translateZ(100px); }
+.front { background: url(lefright.png) no-repeat center / cover; transform: translateZ(100px); }
+.back { background: url(left.png) no-repeat center / cover; transform: rotateY(180deg) translateZ(100px); }
+.right { background: url(top.png) no-repeat center / cover; transform: rotateY(90deg) translateZ(0px); }
+.left { background: url(bottom.png) no-repeat center / cover; transform: rotateY(-90deg) translateZ(100px); }
+.top { background: url(bootop.png) no-repeat center / cover; transform: rotateX(-90deg) translateZ(200px); }
+.bottom { background: url(bootop.png) no-repeat center / cover; transform: rotateX(90deg) rotateY(0deg) translateZ(100px); }
 
 @keyframes rotate {
     0% { transform: rotateX(-22deg) rotateY(0deg); }
